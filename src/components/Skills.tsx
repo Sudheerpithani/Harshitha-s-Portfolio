@@ -1,6 +1,9 @@
 
 import { useState, useEffect } from 'react';
 import { Code, Database, Cloud, Globe, Award } from 'lucide-react';
+import HTML from '../assets/HTML.png';
+import CSS from '../assets/CSS.png';
+import Java from '../assets/Java.png';
 
 const Skills = () => {
   const skills = {
@@ -29,21 +32,21 @@ const Skills = () => {
     {
       name: 'Java Certification',
       provider: 'Information Technology Specialist',
-      image: '/lovable-uploads/0842695d-0564-4a19-944f-a824dd16ea3d.png',
+      image: Java,
       date: 'December 10, 2024',
       color: 'from-orange-500 to-red-500'
     },
     {
       name: 'HTML Certification',
       provider: 'Great Learning Academy',
-      image: '/lovable-uploads/0c96b535-985c-43d8-926a-a7109bd20b53.png',
+      image: HTML,
       date: 'May 2024',
       color: 'from-orange-500 to-red-500'
     },
     {
       name: 'CSS Certification',
       provider: 'Great Learning Academy',
-      image: '/lovable-uploads/fe031bff-fa22-4e4f-9e28-9f9f48f9b393.png',
+      image: CSS,
       date: 'June 2024',
       color: 'from-blue-500 to-purple-500'
     }
