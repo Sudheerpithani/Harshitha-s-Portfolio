@@ -32,7 +32,7 @@ const About = () => {
               </p>
               
               <p className="text-lg text-gray-700 leading-relaxed">
-                Currently pursuing my B.Tech in Computer Science with an impressive <span className="font-bold text-purple-600">8.7 CGPA</span>, I combine strong academic performance with practical experience. My educational foundation includes exceptional results from Sri Chaitanya Jr College (97%) and Loyola (E.M) School (91%).
+                Currently pursuing my B.Tech in Computer Science with an impressive <span className="font-bold text-purple-600">8.5 CGPA</span>, I combine strong academic performance with practical experience. My educational foundation includes exceptional results from Sri Chaitanya Jr College (97%) and Loyola (E.M) School (91%).
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -69,7 +69,7 @@ const About = () => {
             <div className="space-y-8">
               <div className="group border-l-4 border-pink-500 pl-8 py-4 hover:bg-pink-50 rounded-r-2xl transition-colors duration-300">
                 <h4 className="text-xl font-bold text-gray-900 group-hover:text-pink-600 transition-colors duration-300">B.Tech Computer Science</h4>
-                <p className="text-pink-600 font-semibold text-lg">Current • CGPA: 8.7</p>
+                <p className="text-pink-600 font-semibold text-lg">Current • CGPA: 8.5</p>
                 <p className="text-gray-600 mt-2">Focusing on AI, Machine Learning, and Software Development</p>
               </div>
 

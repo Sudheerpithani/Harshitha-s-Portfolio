@@ -15,7 +15,7 @@ const Portfolio = () => {
       github: "https://github.com/DhanyuniHarshitha/LearnHub-MERN",
       demo: "https://github.com/DhanyuniHarshitha/LearnHub-MERN",
       image: Studyapp,
-      featured: true,
+      featured: false,
       isImageProject: true,
     },
     {
@@ -65,7 +65,7 @@ const Portfolio = () => {
         "https://github.com/DhanyuniHarshitha/Employee_burnout-prediction",
       demo: "https://github.com/DhanyuniHarshitha/Employee_burnout-prediction",
       image: "🤖",
-      featured: true,
+      featured:false,
       isImageProject: false,
     },
   ];

@@ -89,7 +89,7 @@ const Hero = () => {
 
           <div className="animate-fade-in delay-600">
             <p className="text-lg text-gray-700 leading-relaxed max-w-2xl">
-              Passionate Computer Science student with <span className="font-semibold text-pink-600">8.7 CGPA</span>, 
+              Passionate Computer Science student with <span className="font-semibold text-pink-600">8.5 CGPA</span>, 
               focused on creating innovative solutions in AI and web development. Currently pursuing B.Tech 
               while gaining hands-on experience in cutting-edge technologies.
             </p>
@@ -166,13 +166,6 @@ const Hero = () => {
                     </div>
                   )}
                 </div>
-              </div>
-            </div>
-            
-            <div className="absolute -top-6 -right-6 bg-gradient-to-r from-yellow-400 to-orange-400 text-white px-6 py-3 rounded-2xl text-sm font-bold shadow-xl transform rotate-3 group-hover:rotate-6 transition-transform duration-300">
-              <div className="flex items-center gap-2">
-                <span className="w-2 h-2 bg-white rounded-full animate-pulse"></span>
-                <span>8.7 CGPA</span>
               </div>
             </div>
           </div>
