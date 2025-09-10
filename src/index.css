@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  @apply bg-background text-foreground;
+  font-family: 'Inter', sans-serif;
+}
 
 @layer base {
   :root {
@@ -79,9 +84,9 @@
 }
 
 @layer base {
-  * {
+  /* * {
     @apply border-border;
-  }
+  } */
 
   body {
     @apply bg-background text-foreground;
@@ -121,6 +126,13 @@
 
   .delay-1200 {
     animation-delay: 1.2s;
+  }
+  .bg-background {
+    background-color: hsl(var(--background));
+  }
+
+  .text-foreground {
+    color: hsl(var(--foreground));
   }
 }
 
